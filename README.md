@@ -7,8 +7,8 @@ The robot receives images from an RGB camera, detects a colored target (example:
 Features
 * Real-time object detection using color segmentation (HSV space).
 * Simple decision-making logic to move the robot:
-    Forward if the object is centered.
-    Left / Right if the object is off-center.
-    Stop if no object is detected.
+    * Forward if the object is centered.
+    * Left / Right if the object is off-center.
+    * Stop if no object is detected.
 * ROS-based implementation with image streaming via /camera/rgb/image_raw.
 * OpenCV window for debugging and visualization of the camera feed.
